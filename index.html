@@ -8,13 +8,24 @@
     <meta name="keywords" content="UXUI">
     <meta name="author" content="Faith D">
     <title>Faith's Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+    /* div {
+        border: 1px red solid;
+    } */
+    
+    
+    </style>
     
 </head>
 <body>
     <!-- header start -->
     <header>
-        <img src="" alt="Faith Logo">Logo
-        Search
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Faith Logo">
+        <form action="#">
+            <input type="search">
+            <input type="submit" value="Search">
+        </form>
         <nav>
             About
             Products
@@ -26,7 +37,7 @@
     <!-- header end -->
 
     <!-- hero start -->
-    <section style="background-color: darkkhaki;">
+    <section id="hero">
         <h1>Faith</h1>
         <h3>heading 3</h3>
         Call to Action
@@ -36,29 +47,32 @@
     <!-- article cards start-->
     <section>
         <!-- card 1 start-->
-        <div>
-            <img src="" alt="">
+        <div class="card">
+            <img src="img/frederic-paulussen-0F_FmdOWa9w-unsplash.jpg" alt="Building 1" class="img-card">
+            
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_01.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- card 1 end -->
         <!-- card 2 start-->
-        <div>
-            <img src="" alt="">
+        <div class="card">
+            <img src="img/jang-ujang-V3dJg0zUU_s-unsplash.jpg" alt="Building 2" class="img-card">
+            
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_03.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- card 2 end -->
         <!-- card 3 start-->
-        <div>
-            <img src="" alt="">
+        <div class="card">
+            <img src="img/joana-godinho-KJluCkKGLSc-unsplash.jpg" alt="Building 3" class="img-card">
+            
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="" alt="avatar">
+            <img src="img/avatar_05.png" alt="avatar">
             <p>author name</p>
         </div>
         <!-- card 3 end -->
@@ -75,27 +89,27 @@
 
     <!-- features start -->
     <!-- Feature 1 start -->
-    <div>
-        <img src="" alt="">
-        <h2>title</h2>
-        <p>description</p>
-    </div>
-    <!-- Feature 1 end -->
-
-     <!-- Feature 2 start -->
-     <div>
-        <img src="" alt="">
-        <h2>title</h2>
-        <p>description</p>
-     </div>
-     <!-- Feature 2 end -->
-
-      <!-- Feature 3 start -->
-    <div>
-        <img src="" alt="">
-        <h2>title</h2>
-        <p>description</p>
-    </div>
+    <section>
+        <div>
+            <img src="img/casey-allen-UjpEGHu8uNU-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p>description</p>
+        </div>
+        <!-- Feature 1 end -->
+         <!-- Feature 2 start -->
+         <div>
+            <img src="img/denys-nevozhai-7AVU4gIH2cE-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p>description</p>
+         </div>
+         <!-- Feature 2 end -->
+          <!-- Feature 3 start -->
+        <div>
+            <img src="img/michael-olsen-Gs1mJmK2ixc-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p>description</p>
+        </div>
+    </section>
     <!-- Feature 3 end -->
 
     
@@ -105,12 +119,23 @@
     <section>
         <h3>Contact</h3>
         <p>Address</p>
-    </section>
+    
     <div>
-        Message
-        email
-        button
+        <form action="#">
+            <label for="name">Name</label><br>
+            <input id="name" type="text" placeholder="Name">
+            <br><br>
+            <label for="email">Email</label><br>
+            <input id="email" type="email" placeholder="Email">
+            <br><br>
+            <label for="message">Message</label><br>
+            <textarea name="" id="message" cols="50" rows="6" placeholder="Message"></textarea>
+            <br><br>
+            
+            <input type="submit" value="Send Message">
+        </form>
     </div>
+</section>
     <!-- contact end -->
 
     <!-- footer start -->
