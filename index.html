@@ -9,6 +9,11 @@
     <meta name="author" content="Faith D">
     <title>Faith's Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
     <style type="text/css">
     /* div {
         border: 1px red solid;
@@ -20,18 +25,22 @@
 </head>
 <body>
     <!-- header start -->
-    <header>
-        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Faith Logo">
-        <form action="#">
-            <input type="search">
-            <input type="submit" value="Search">
-        </form>
-        <nav>
-            About
-            Products
-            Testimonials
-            Contact
-        </nav>
+    <header class="container">
+        
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Faith Logo">
+            <form action="#">
+                <input type="search">
+                <input type="submit" value="Search">
+            </form>
+            <nav>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Testimonials</a>
+                <a href="contact">Contact</a>
+                <a href="#" class="cv-button"><i class="ri-file-download-line ri-1x"></i>Download CV</a>
+                
+            </nav>
+        
         
     </header>
     <!-- header end -->
@@ -40,20 +49,22 @@
     <section id="hero">
         <h1>Faith</h1>
         <h3>heading 3</h3>
-        Call to Action
+        <a href="#" class="cta-button"><i class="ri-shopping-cart-2-line ri-lg"></i>Call to Action</a>
     </section>
     <!-- hero end -->
 
     <!-- article cards start-->
-    <section>
+    <section id="articles" class="container author-card">
         <!-- card 1 start-->
         <div class="card">
             <img src="img/frederic-paulussen-0F_FmdOWa9w-unsplash.jpg" alt="Building 1" class="img-card">
             
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="img/avatar_01.png" alt="avatar">
-            <p>author name</p>
+            <div class="container author-card">
+                <img src="img/avatar_01.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- card 1 end -->
         <!-- card 2 start-->
@@ -62,8 +73,10 @@
             
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="img/avatar_03.png" alt="avatar">
-            <p>author name</p>
+            <div class="container author-card">
+                <img src="img/avatar_03.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- card 2 end -->
         <!-- card 3 start-->
@@ -72,8 +85,10 @@
             
             <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="img/avatar_05.png" alt="avatar">
-            <p>author name</p>
+            <div class="container">
+                <img src="img/avatar_05.png" alt="avatar" class="author-photo">
+                <p>author name</p>
+            </div>
         </div>
         <!-- card 3 end -->
     </section>
@@ -82,9 +97,10 @@
 
 
     <!-- video start -->
-    <video src="">
-        <source src="" type="viedo/mp4">
-    </video>
+    <section id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N9zCCHZO1ag?start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <source src="" type="viedo/mp4"> -->
+    </section>
     <!-- video end -->
 
     <!-- features start -->
@@ -92,21 +108,21 @@
     <section>
         <div>
             <img src="img/casey-allen-UjpEGHu8uNU-unsplash.jpg" alt="" class="img-feat">
-            <h2>title</h2>
+            <h3>title</h3>
             <p>description</p>
         </div>
         <!-- Feature 1 end -->
          <!-- Feature 2 start -->
          <div>
             <img src="img/denys-nevozhai-7AVU4gIH2cE-unsplash.jpg" alt="" class="img-feat">
-            <h2>title</h2>
+            <h3>title</h3>
             <p>description</p>
          </div>
          <!-- Feature 2 end -->
           <!-- Feature 3 start -->
         <div>
             <img src="img/michael-olsen-Gs1mJmK2ixc-unsplash.jpg" alt="" class="img-feat">
-            <h2>title</h2>
+            <h3>title</h3>
             <p>description</p>
         </div>
     </section>
@@ -116,7 +132,7 @@
     <!-- features end -->
 
     <!-- contact start -->
-    <section>
+    <section id="contact">
         <h3>Contact</h3>
         <p>Address</p>
     
@@ -141,18 +157,25 @@
     <!-- footer start -->
     <footer>
         <!-- menu start -->
-        About Us
+        
         <div>
-            Products
-            Testimonials
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contact</a>
         </div>
         <!-- menu start -->
         <!-- social media start -->
-        <div>
+        <div class="icons">
             <h4>Social media</h4>
-            Facebook
-            Instagram
-            Twitter
+           
+            <a href="https://www.facebook.com" target="_blank">
+            <i class="ri-facebook-box-line"></i></a>
+
+            <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-line"></i></a>
+            
+            <a href="https://www.twitter.com" target="_blank"><i class="ri-twitter-line"></i></a>
+        
         </div>
         <!-- social media end -->
     </footer>

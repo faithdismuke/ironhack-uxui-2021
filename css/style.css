@@ -1,3 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    
+    font-size: 2.441rem;
+}
+
+h2 {
+    font-size: 1.953rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+color: darkslategrey;
+}
+
+.icons {
+    font-size: 50px;
+}
+
+
 div {
     border: 1px blue solid;
 }
@@ -5,6 +35,58 @@ div {
 section {
     background-color: grey;
     padding: 80px 40px;
+}
+
+header {
+justify-content: space-around;
+align-items: center;
+}
+
+/* links */
+a:link, a:visited {
+    text-decoration: none;
+    color: fuchsia;
+    padding: 16px 24px;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+/* cta button */
+
+a.cta-button:link, a.cta-button:visited {
+    background-color: indianred;
+    border-radius: 8px;
+    color: ivory;
+    padding: 16px 24px;
+}
+
+a.cta-button:hover {
+    background-color: lightgreen;
+}
+
+a.cta-button:active {
+    background-color: darkorchid;
+}
+
+
+
+/* CV Download Button */
+
+a.cv-button:link, a.cv-button:visited {
+    background-color: indianred;
+    border-radius: 8px;
+    color: ivory;
+    padding: 8px 16px;
+}
+
+a.cv-button:hover {
+    background-color: lightgreen;
+}
+
+a.cv-button:active {
+    background-color: darkorchid;
 }
 
 /* .img {
@@ -22,6 +104,19 @@ width: 250px;
     width: 80px;
     height: 80px;
     border-radius: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.author-photo {
+    width: 40px;
+    height: 40px;
+}
+
+.author-card {
+    align-items: center;
 }
 
 #hero {
