@@ -33,9 +33,9 @@ color: darkslategrey;
 }
 
 
-div {
+/* div {
     border: 1px black solid;
-}
+} */
 
 section {
     /* background-color: grey; */
@@ -51,6 +51,10 @@ footer {
     justify-content: space-evenly;
     background-color: lightpink;
     padding: 40px;
+}
+
+video {
+    width: 100%;
 }
 
 /* links */
@@ -108,13 +112,27 @@ width: 250px;
 }
 
 .img-card {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: 100%;
+    height: 100%;
 }
 
 .img-feat {
     width: 80px;
     height: 80px;
     border-radius: 50px;
+    margin: 20px;
+}
+
+.img-holder {
+    position: relative;
+    right: 0;
+    /* bottom: 0; */
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .container {
@@ -128,6 +146,20 @@ width: 250px;
 
 .author-card {
     align-items: center;
+}
+
+.feat-item {
+    flex-grow: 1;
+}
+
+a.btn-rocio {
+    font-family: 'Poppins', sans-serif;
+    color: #131045;
+    background-color: white;
+    border: 3px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
 }
 
 /* .feat-card {
@@ -152,4 +184,8 @@ padding: 20px;
 #contact {
 justify-content: space-around;
 
+}
+
+#video {
+    padding: 0;
 }
