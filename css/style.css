@@ -57,6 +57,52 @@ video {
     width: 100%;
 }
 
+/* forms */
+textarea {
+    width: 240px;
+    height: 150px;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+input[type=text] {
+    background-image: url('../icons/user-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 77%;
+}
+
+input[type=email] {
+    background-image: url('../icons/mail-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 77%;
+}
+
+input {
+    /* width: 80%; */
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input:focus {
+    background-color: khaki;
+    border: none;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: indianred;
+    color: white;
+    cursor: pointer;
+}
+
 /* links */
 a:link, a:visited {
     text-decoration: none;
@@ -152,6 +198,10 @@ width: 250px;
     flex-grow: 1;
 }
 
+.div-contact {
+    flex: 1;
+}
+
 a.btn-rocio {
     font-family: 'Poppins', sans-serif;
     color: #131045;
@@ -188,4 +238,12 @@ justify-content: space-around;
 
 #video {
     padding: 0;
+}
+
+#contact div {
+    padding: 20px;
+}
+
+#btn-form {
+    width: 90%;
 }
