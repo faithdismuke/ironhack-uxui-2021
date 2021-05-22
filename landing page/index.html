@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RJ Denim Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <header>
     <!-- navigation -->
-    <!-- Logo image -->
-    <img src="img/Logo.png" alt="RJ logo">
-
-
-    <form action="#">
-                <input type="search">
-                <input type="submit" value="Search">
-            </form>
-
     <nav>
-        <a href="#">About</a>
-        <a href="#">Shop</a>
-        <a href="#">Contact</a>
+        <!-- Logo image -->
+        <img src="img/Logo.png" alt="RJ logo">
+        <form action="#">
+                    <input type="search">
+                    <input type="submit" value="Search">
+                </form>
+        <menu>
+            <a href="#">About</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </menu>
     </nav>
 
     <!-- denim types -->
@@ -38,7 +40,7 @@
 
     <!-- hero -->
     <section id="hero">
-        <img src="img/group1.jpg" alt="group image" width="100px">
+        <!-- <img src="img/group1.jpg" alt="group image" width="100px"> -->
         <h1>Shop</h1>
         <h2>50% Sale</h2>
         <h4>Spring Styles for All Sizes</h4>
@@ -78,7 +80,7 @@
 
 <!-- Clearance -->
 <section id="clearance">
-    <img src="img/couple3.jpg" alt="clearance image" width="100px">
+    <!-- <img src="img/couple3.jpg" alt="clearance image" width="100px"> -->
     <h3>See Clearance</h3>
 </section>
 
@@ -86,14 +88,16 @@
 
 <!-- Popular styles -->
 <section id="popular-styles">
-<h2>Popular Styles</h2>
-<button>Shop</button>
+<div class="popular-style-text">
+    <h2>Popular Styles</h2>
+    <button>Shop</button>
+</div>
 
 <!-- shop items start -->
 <div class="style-cards">
     <!-- shop item 1 start -->
     <div class="popular-card">
-        <img src="img/Rectangle (4).png" alt="item 1">
+        <img src="img/Rectangle (4).png" alt="item 1" width="200px">
         <p>Item name</p>
         <div class="popular-price">
             $199
@@ -110,7 +114,7 @@
     
     <!-- shop item 2 start -->
     <div class="popular-card">
-        <img src="img/Rectangle 1 (1).png" alt="RJ logo">
+        <img src="img/Rectangle 1 (1).png" alt="RJ logo" width="200px">
         <p>Item name</p>
         <div class="popular-price">
             $199
@@ -123,12 +127,12 @@
             Color 4
         </div>
     </div>
-    </div>
+    
     <!-- shop item 2 end -->
     
     <!-- shop item 3 start -->
     <div class="popular-card">
-        <img src="img/Rectangle 1 (2).png" alt="RJ logo">
+        <img src="img/Rectangle 1 (2).png" alt="RJ logo" width="200px">
         <p>Item name</p>
         <div class="popular-price">
             $199
@@ -145,7 +149,7 @@
 
      <!-- shop item 4 start -->
      <div class="popular-card">
-        <img src="img/Rectangle 1 (3).png" alt="item image">
+        <img src="img/Rectangle 1 (3).png" alt="item image" width="200px">
         <p>Item name</p>
         <div class="popular-price">
             $199
@@ -158,6 +162,7 @@
             Color 4
         </div>
     </div>
+</div>
     <!-- shop item 4 end -->
     
     <!-- shop items end -->

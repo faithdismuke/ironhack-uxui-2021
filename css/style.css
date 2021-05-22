@@ -59,6 +59,7 @@ video {
 
 /* forms */
 textarea {
+    box-sizing: border-box;
     width: 240px;
     height: 150px;
     padding: 16px 24px;
@@ -67,7 +68,14 @@ textarea {
     border: 1px solid gray;
 }
 
+textarea:focus {
+    outline: 0;
+    background-color: greenyellow;
+
+}
+
 input[type=text] {
+    box-sizing: border-box;
     background-image: url('../icons/user-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
@@ -76,6 +84,7 @@ input[type=text] {
 }
 
 input[type=email] {
+    box-sizing: border-box;
     background-image: url('../icons/mail-line.png');
     background-repeat: no-repeat;
     background-position: 8px;

@@ -1,13 +1,162 @@
+* {
+    font-family: 'Rowdies', cursive;
+}
+
 body {
     margin: 0;
+    background: #2B2929;
+    color: white;
 }
 
+a {
+    color: #DB1EA6;
+    text-decoration: none;
+}
+
+button {
+    background: #DB1EA6;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;
+padding: 12px 36px;
+}
+
+/* header start*/
 header {
-    justify-content: space-around;
-    align-items: center;
-    }
-
-div {
-    border: 1px solid black;
+    display: block;
 }
+
+nav {
+    background-color: #000;
+    display: flex;
+flex-direction: row;
+align-items: center;
+/* padding: 0px;
+
+position: absolute;
+width: 1202px;
+height: 91px;
+left: calc(50% - 1202px/2 + 0.5px);
+top: 31px; */
+
+}
+
+menu {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+/* position: static;
+width: 345px;
+height: 48px;
+left: 857px;
+top: 21.5px; */
+}
+
+.denim-types {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+}
+
+#hero {
+    background-image: url('../img/group1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+/* hero text */
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+
+#denim-types {
+    height: 5%;
+}
+
+#denim-types a {
+    background: #828282;
+border-radius: 8px;
+color: #000;
+padding: 8px 24px;
+
+}
+
+/* header end */
+
+
+
+
+/* shop styles start */
+#shop-styles {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 70%;
+}
+/* shop styles end */
+
+
+/* clearance section start */
+#clearance {
+    background-image: url('../img/couple3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+
+    /* clearance text */
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+
+/* clearance section end */
+
+
+
+
+
+/* popular items start */
+#popular-styles {
+    height: 70%;
+}
+
+.popular-style-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+}
+
+
+.style-cards {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+}
+/* popular items end */
+
+
+
+
+/* footer start */
+footer {
+    background-color: #000;
+    height: 40%;
+}
+/* footer end */
 
