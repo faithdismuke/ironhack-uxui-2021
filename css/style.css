@@ -3,7 +3,8 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     
     font-size: 2.441rem;
+    color: yellow;
 }
 
 h2 {
@@ -60,7 +62,7 @@ video {
 /* forms */
 textarea {
     box-sizing: border-box;
-    width: 240px;
+    width: 80%;
     height: 150px;
     padding: 16px 24px;
     margin: 8px 0;
@@ -74,13 +76,20 @@ textarea:focus {
 
 }
 
+select {
+    width: 80%;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
 input[type=text] {
     box-sizing: border-box;
     background-image: url('../icons/user-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
-    width: 77%;
+    width: 80%;
 }
 
 input[type=email] {
@@ -89,7 +98,7 @@ input[type=email] {
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
-    width: 77%;
+    width: 80%;
 }
 
 input {
@@ -255,4 +264,33 @@ justify-content: space-around;
 
 #btn-form {
     width: 90%;
+}
+
+
+
+
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* Tablet */
+@media only screen and (min-width: 680px) and (max-width: 767px){
+    h1 {
+        color: red;
+    }
+}
+
+
+
+
+
+/* --------------------------- */
+/* --------------------------- */
+/* --------------------------- */
+/* Desktop */
+@media only screen and (max-width: 679px){
+    h1 {
+        color: darkmagenta;
+    }
 }
