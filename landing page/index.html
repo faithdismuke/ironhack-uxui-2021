@@ -29,11 +29,13 @@
 
     <!-- denim types -->
     <section id="denim-types">
-        <a href="#">Fancy</a>
-        <a href="#">Casual</a>
-        <a href="#">Grunge</a>
-        <a href="#">Throwback</a>
-        <a href="#">Artistic</a>
+        <div class="denim-type-options">
+            <a href="#">Fancy</a>
+            <a href="#">Casual</a>
+            <a href="#">Grunge</a>
+            <a href="#">Throwback</a>
+            <a href="#">Artistic</a>
+        </div>
     </section>
 
 
@@ -51,28 +53,32 @@
 
     <!-- Shop Styles -->
     <section id="shop-styles">
+        <h1>Shop Styles</h1>
         <!-- shop styles cards start -->
-        <!-- card 1 start  -->
-        <div class="style-card">
-            <img src="img/womensjeans.png" alt="womens image">
-            <h3>Women Jeans</h3>
-            <a href="#">Shop All</a>
+        
+        <div class="style-card-group">
+            <!-- card 1 start  -->
+            <div class="style-card">
+                <img src="img/womensjeans.png" alt="womens image">
+                <h4>Women Jeans</h4>
+                <a href="#">Shop All</a>
+            </div>
+            <!-- card 1 end  -->
+            <!-- card 2 start  -->
+            <div class="style-card">
+                <img src="img/mensjeans.png" alt="mens image">
+                <h4>Men Jeans</h4>
+                <a href="#">Shop All</a>
+            </div>
+            <!-- card 2 end  -->
+            <!-- card 3 start  -->
+            <div class="style-card">
+                <img src="img/kidsjeans.png" alt="kids image">
+                <h4>Kids Jeans</h4>
+                <a href="#">Shop All</a>
+            </div>
+            <!-- card 3 end -->
         </div>
-        <!-- card 1 end  -->
-        <!-- card 2 start  -->
-        <div class="style-card">
-            <img src="img/mensjeans.png" alt="mens image">
-            <h3>Men Jeans</h3>
-            <a href="#">Shop All</a>
-        </div>
-        <!-- card 2 end  -->
-        <!-- card 3 start  -->
-        <div class="style-card">
-            <img src="img/kidsjeans.png" alt="kids image">
-            <h3>Kids Jeans</h3>
-            <a href="#">Shop All</a>
-        </div>
-        <!-- card 3 end -->
         <!-- shop styles cards end -->
     </section>
 
@@ -100,14 +106,14 @@
         <img src="img/Rectangle (4).png" alt="item 1" width="200px">
         <p>Item name</p>
         <div class="popular-price">
-            $199
+            <s>$199</s>
             $99
         </div>
         <div class="color-circle">
-            Color 1
-            Color 2
-            Color 3
-            Color 4
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
         </div>
     </div>
     <!-- shop item 1 end -->
@@ -117,14 +123,14 @@
         <img src="img/Rectangle 1 (1).png" alt="RJ logo" width="200px">
         <p>Item name</p>
         <div class="popular-price">
-            $199
+            <s>$199</s>
             $99
         </div>
         <div class="color-circle">
-            Color 1
-            Color 2
-            Color 3
-            Color 4
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
         </div>
     </div>
     
@@ -135,14 +141,14 @@
         <img src="img/Rectangle 1 (2).png" alt="RJ logo" width="200px">
         <p>Item name</p>
         <div class="popular-price">
-            $199
+            <s>$199</s>
             $99
         </div>
         <div class="color-circle">
-            Color 1
-            Color 2
-            Color 3
-            Color 4
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
         </div>
     </div>
     <!-- shop item 3 end -->
@@ -152,14 +158,14 @@
         <img src="img/Rectangle 1 (3).png" alt="item image" width="200px">
         <p>Item name</p>
         <div class="popular-price">
-            $199
+            <s>$199</s>
             $99
         </div>
         <div class="color-circle">
-            Color 1
-            Color 2
-            Color 3
-            Color 4
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
+            <span class="small-circle"></span>
         </div>
     </div>
 </div>
@@ -173,15 +179,17 @@
 
 <!-- footer start-->
 <footer>
-    <div>
-        <h3>Subscribe</h3>
-        <input id="email" type="email" placeholder="Email">
-        <input type="submit" value="Submit">
-    </div>
-    <div>
-        <a href="#">Shop Women</a>
-        <a href="#">Shop Men</a>
-        <a href="#">Shop Kids</a>
+    <div class="footer-content">
+        <div class="subscribe">
+            <h3>Subscribe</h3>
+            <input id="email" type="email" placeholder="Email">
+            <input type="submit" value="Submit">
+        </div>
+        <div class="footer-links">
+            <a href="#">Shop Women</a>
+            <a href="#">Shop Men</a>
+            <a href="#">Shop Kids</a>
+        </div>
     </div>
 </footer>
 

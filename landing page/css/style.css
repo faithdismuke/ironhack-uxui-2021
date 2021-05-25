@@ -8,9 +8,25 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
 a {
     color: #DB1EA6;
     text-decoration: none;
+}
+
+section {
+    margin-top: 5%;
 }
 
 button {
@@ -19,6 +35,12 @@ button {
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 100px;
 padding: 12px 36px;
+}
+
+input[type=search] {
+    width: 17rem;
+    border-radius: .75rem;
+    padding: 1rem;
 }
 
 /* header start*/
@@ -31,13 +53,8 @@ nav {
     display: flex;
 flex-direction: row;
 align-items: center;
-/* padding: 0px;
-
-position: absolute;
-width: 1202px;
-height: 91px;
-left: calc(50% - 1202px/2 + 0.5px);
-top: 31px; */
+left: 0%;
+right: 0%;
 
 }
 
@@ -46,28 +63,32 @@ menu {
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-
-/* position: static;
-width: 345px;
-height: 48px;
-left: 857px;
-top: 21.5px; */
 }
 
+
 .denim-types {
+    position: absolute;
+height: 118px;
+left: 0%;
+right: 0%;
+
+}
+
+.denim-type-options {
     display: flex;
 flex-direction: row;
 justify-content: space-between;
-align-items: flex-start;
-padding: 0px;
-
+align-items: center;
+padding-left: 5%;
+padding-right: 5%;
 }
 
 #hero {
-    background-image: url('../img/group1.jpg');
+    background-image: url('../img/ali-pazani-Pdds9XsWyoM-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    
 
 /* hero text */
     display: flex;
@@ -75,7 +96,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
-}
+}  
 
 #denim-types {
     height: 5%;
@@ -97,20 +118,39 @@ padding: 8px 24px;
 /* shop styles start */
 #shop-styles {
     display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+}
+
+.style-card-group {
+    display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-height: 70%;
 }
+.style-card {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+
+
 /* shop styles end */
 
 
 /* clearance section start */
 #clearance {
-    background-image: url('../img/couple3.jpg');
+    background-image: url('../img/yasin-aribuga-AZe71RgTisg-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
+
+    /* image position */
+    object-position: 0 10%;
+ 
 
     /* clearance text */
     display: flex;
@@ -131,6 +171,15 @@ padding: 0px;
     height: 70%;
 }
 
+.popular-card {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
 .popular-style-text {
     display: flex;
     flex-direction: column;
@@ -139,6 +188,9 @@ padding: 0px;
     padding: 4rem 0rem;
 }
 
+.popular-price s {
+    color: red;
+}
 
 .style-cards {
     display: flex;
@@ -146,8 +198,22 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 0px;
-
 }
+
+.color-circle {
+    margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.small-circle {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(219, 230, 11);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
 /* popular items end */
 
 
@@ -156,7 +222,45 @@ padding: 0px;
 /* footer start */
 footer {
     background-color: #000;
-    height: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-content {
+    display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+.subscribe {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-right: 2rem;
+padding-left: 20%;
+}
+
+.footer-links {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+}
+
+input[type=email] {
+    width: 17rem;
+    border-radius: .75rem;
+    padding: 1rem;
+}
+
+input[type=submit] {
+    background: #DB1EA6;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;
+padding: 12px 36px;
+
 }
 /* footer end */
 
